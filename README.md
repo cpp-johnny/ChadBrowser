@@ -2,6 +2,8 @@
 ## 0. What is this?
 This is a random project I created to lump all the y5/6 resources together into one place since every department have their own random links and is very troublesome to search in gmail all the time 😩😩😩
 
+currently working on darkmode and actual proper note taking function
+
 ![image](https://github.com/cpp-johnny/ChadBrowser/assets/119715263/100881ef-3dff-42ed-87df-f64a1ba08909)
 
 ## 1. Layout
