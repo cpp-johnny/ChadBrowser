@@ -27,6 +27,9 @@ ChadBrowser v2.0.0
 ```
 More updates about to come!
 
+## 2. Legacy
+![v1.0.0](https://github.com/cpp-johnny/y5-resources)
+
 ### note
 certain code is removed to protect personal data/school's privacy
 
