@@ -1,10 +1,14 @@
-# Welcome to ChadBrowser!
+# Welcome to ChadBrowser v3!
 ## 0. What is this?
 This is a random project I created to lump all the y5/6 resources together into one place since every department have their own random links and is very troublesome to search in gmail all the time 😩😩😩
 
-currently working on darkmode and actual proper note taking function
+## things that I'm working on
+- having an actual proper note taking function
+- add in more resource link
+- rework the whole UI so it doesnt look dogshit
 
-![image](https://github.com/cpp-johnny/ChadBrowser/assets/119715263/100881ef-3dff-42ed-87df-f64a1ba08909)
+
+![image](https://github.com/cpp-johnny/ChadBrowser/assets/119715263/2162e93b-f8bb-4129-bece-9f62d6aefc2c)
 
 ## 1. Layout
 
@@ -31,6 +35,15 @@ More updates about to come!
 
 ## 2. Legacy
 [v1.0.0](https://github.com/cpp-johnny/y5-resources)
+
+<details><summary>Version 2(click me!)</summary>
+<p>
+
+![image](https://github.com/cpp-johnny/ChadBrowser/assets/119715263/100881ef-3dff-42ed-87df-f64a1ba08909)
+
+</p>
+</details>
+
 
 ### note
 certain code is removed to protect personal data/school's privacy
