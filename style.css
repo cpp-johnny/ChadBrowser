@@ -1,56 +1,37 @@
+/* Default (Dark Mode) styles */
 body {
-    color: black;
-    background-color: white;
-    font-family: Ubuntu, "times new roman", times, roman, serif;
-    font-size: 12pt;
-    text-align: center
-  }
-
+  color: white;
+  background-color: black;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  font-size: 12pt;
+  text-align: center;
+}
 
 img {
-    width: 241px;
-    height: 183.7625px;
+  width: 241px;
+  height: 183.7625px;
 }
 
 /* Style for ChadBrowser text */
 #chad-browser {
   position: fixed;
-  top: 10px; /* Adjust the top and right values as needed */
+  top: 10px;
   right: 10px;
-  color: #FFF; /* Text color */
-  background-color: #000; /* Background color */
-  padding: 5px 10px; /* Padding for text */
-  border-radius: 5px; /* Rounded corners */
-  font-size: 16px; /* Font size */
-  z-index: 9999; /* Ensure it's above other elements */
+  color: #FFF;
+  background-color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  z-index: 9999;
 }
-
 
 #note-section {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: #333;
   padding: 10px;
   font-family: Ubuntu, "times new roman", times, roman, serif;
-}
-
-#note-text {
-  width: 80%;
-  padding: 5px;
-  font-family: Ubuntu, "times new roman", times, roman, serif;
-}
-
-#save-button {
-  background-color: #b65fcf;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-/* Your CSS */
-#note-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,13 +39,39 @@ img {
 
 #note-text {
   flex: 1;
-  height: 60px; /* Set the height to match the original height */
+  height: 60px;
+  width: 80%;
+  padding: 5px;
+  background-color: #444;
+  color: white;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
 }
 
 #save-button {
-  height: 60px; /* Set the height to match the original height */
+  height: 60px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
+/* Light mode styles */
+body.light-mode {
+  color: black;
+  background-color: white;
+}
 
+#note-section.light-mode {
+  background-color: #f5f5f5;
+}
 
+#note-text.light-mode {
+  background-color: white;
+  color: black;
+}
 
+#save-button.light-mode {
+  background-color: #b65fcf;
+  color: white;
+}
