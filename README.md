@@ -55,8 +55,7 @@ ChadBrowser v3
 </details>
 
 
-### note
-certain code is removed to protect personal data/school's privacy
+### ⚠️ certain code is removed to protect personal data/school's privacy
 
 
 
