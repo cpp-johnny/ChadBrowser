@@ -1,3 +1,5 @@
+<!--    Note: to remove version control eg git just delete .git file to remove the annoying M or U at the files-->
+
 <!DOCTYPE html> <!-- version 2.0.0-->
 <html lang="en">
 <head>
@@ -7,8 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" id="theme-style">
     <!-- font: ubuntu -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-    
-    
+       
     <!-- animated favicon: rickroll -->
     <!-- This favicon is an animation. Only the Firefox browser supports animated favicons yet. -->
     <!-- For that reason you need to generate an additional non-animated favicon.ico file -->
@@ -22,15 +23,22 @@
 
 <body onload="startTime()"> 
     
-
     <h1>Welcome back, Boi</h1>
 
+    <!-- Toggle Button for Dark Mode -->
+    <button id="theme-toggle">Toggle Dark Mode</button>
+    <br><br>
     <b>time: </b>
     
     <div id="txt"></div>    <br>
 
     <img src="saul.gif"/>
 
+    <!-- Note section -->
+    <div id="note-section">
+        <textarea id="note-text" placeholder="Take notes here..."></textarea>
+        <button id="save-button">Save Notes</button>
+    </div>
 
     <h3>Links for resources: </h3>
 
@@ -50,10 +58,6 @@
         <br>
         <a href="" target="_blank">1. Google Site</a>
         <br><br>
-
-        <a href="" target="_blank">2. Data Booklet</a>
-        <br><br>
-
     </details>
 
     <details>   <!-- Math ✅ -->
@@ -71,6 +75,8 @@
         <br>
         <a href="" target="_blank">1. Google Drive</a>
         <br><br>
+        <a href="" target="_blank">2. Google Classroom</a>
+        <br><br>
 
     </details>
     
@@ -78,7 +84,9 @@
         
         <summary>General Paper⚰</summary>
         <br>
-        <a href="" target="_blank">1. GP Notes</a>
+        <a href="" target="_blank">1. GP Y6 2024Padlet</a>
+        <br><br>
+        <a href="" target="_blank">2. GP Y5 2023 Padlet</a>
         <br><br>
 
     </details>
@@ -96,7 +104,6 @@
    
         <a href="" target="_blank">3. Final Script</a>
         <br><br>
-
 
     </details>
 
@@ -151,14 +158,6 @@
 
     </details>
 
-
-
-    <!--- working on darkmode 
-
-    <button id="background-toggle">Toggle Background</button>
-    
-    -->
-
    <!-- Note section -->
     <div id="note-section">
         <textarea id="note-text" placeholder="Take notes here..."></textarea>
@@ -166,14 +165,11 @@
     </div>
 
     <script src="notes.js"></script>
-
     
     <!-- ChadBrowser text -->
     <span id="chad-browser">ChadBrowser</span>
 
     <script src="script.js"></script>
-
-    
 
 </body>
 
