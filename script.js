@@ -51,5 +51,21 @@ backgroundToggle.addEventListener('click', () => {
 });
 */
 
+// script.js
 
+document.addEventListener('DOMContentLoaded', function () {
+  const themeToggleBtn = document.getElementById('theme-toggle');
 
+  themeToggleBtn.addEventListener('click', function () {
+      document.body.classList.toggle('light-mode');
+      document.getElementById('note-section').classList.toggle('light-mode');
+      document.getElementById('note-text').classList.toggle('light-mode');
+      document.getElementById('save-button').classList.toggle('light-mode');
+
+      if (document.body.classList.contains('light-mode')) {
+          themeToggleBtn.textContent = 'Toggle Dark Mode';
+      } else {
+          themeToggleBtn.textContent = 'Toggle Light Mode';
+      }
+  });
+});
