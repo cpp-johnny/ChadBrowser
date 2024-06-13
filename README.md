@@ -59,4 +59,4 @@ ChadBrowser v3
 
 
 
-![](https://img.shields.io/badge/version-2.0.0-6A5ACD)
+![](https://img.shields.io/badge/version-3.0-6A5ACD)
